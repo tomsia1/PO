@@ -10,7 +10,6 @@ import java.util.*;
 public abstract class AbstractWorldMap implements  IWorldMap{
 
     protected List<Car> cars=new ArrayList<>();
-    //protected List<AbstractMapElement> elements=new LinkedList<>();
     protected MapVisualizer vis;
     protected Position LL=null;
     protected Position UR=null;

@@ -13,19 +13,19 @@ public class UnboundedMap extends AbstractWorldMap {
         {
             if (isOccupied(s.getPosition()))
                 throw new IllegalArgumentException("position: "+ s.getPosition() + " is already occupied");
-            LL=s.getPosition().lowerLeft(LL);
-            UR=s.getPosition().upperRight(UR);
             elements.put(s.getPosition(),s);
         }
     }
 
     @Override
-    public boolean place(Car car)
+    public String toString()
     {
-        if (!super.place(car)) return false;
-
-        LL=car.getPosition().lowerLeft(LL);
-        UR=car.getPosition().upperRight(UR);
-        return true;
+        for (Position pos: elements.keySet())
+        {
+            LL=pos.lowerLeft(LL);
+            UR=pos.upperRight(UR);
+        }
+        return vis.draw(LL,UR);
     }
+
 }

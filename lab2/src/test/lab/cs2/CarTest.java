@@ -1,12 +1,11 @@
 package lab.cs2;
 
 import lab.cs4.AbstractWorldMap;
-import lab.cs4.IWorldMap;
 import lab.cs4.RectangularMap;
 import org.junit.Assert;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-import static junit.framework.TestCase.assertEquals;
+import static groovy.util.GroovyTestCase.assertEquals;
 
 public class CarTest {
 
@@ -24,7 +23,6 @@ public class CarTest {
             MoveDirections.BACKWARD, MoveDirections.LEFT};
 
     @Test
-
     public void testParser() {
         Assert.assertArrayEquals(m1, OptionParser.parse(tab1));
         Assert.assertArrayEquals(m2, OptionParser.parse(tab2));

@@ -28,7 +28,7 @@ public class Car  implements AbstractMapElement{
     }
 
     public String toString() {
-        return new String(head.toString());
+        return head.toString();
     }
 
     public MapDirections showDirection() {

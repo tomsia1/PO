@@ -2,21 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74621404-911b-44fa-85da-b67eb4cb1866" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/au_com_dius_pact_jvm_consumer_junit5_2_11_3_5_21.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab2/lab2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/lab2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/src/main/lab/cs2/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/src/main/lab/cs2/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/src/main/lab/cs2/CarSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/src/main/lab/cs2/CarSystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/src/main/lab/cs2/HayStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/src/main/lab/cs2/HayStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/src/main/lab/cs2/OptionParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/src/main/lab/cs2/OptionParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/src/main/lab/cs2/Position.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/src/main/lab/cs2/Position.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lab2/src/main/lab/cs4/AbstractWorldMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/src/main/lab/cs4/AbstractWorldMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/src/main/lab/cs4/MapVisualizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/src/main/lab/cs4/MapVisualizer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/src/main/lab/cs4/RectangularMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/src/main/lab/cs4/RectangularMap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lab2/src/main/lab/cs4/UnboundedMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/src/main/lab/cs4/UnboundedMap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lab2/src/test/lab/cs2/CarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/src/test/lab/cs2/CarTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/labs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/labs.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab2/lab/cs2/AbstractMapElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab2/lab/cs2/AbstractMapElement.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab2/lab/cs2/Car$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab2/lab/cs2/Car$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab2/lab/cs2/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab2/lab/cs2/Car.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/lab2/lab/cs2/CarSystem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab2/lab/cs2/CarSystem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab2/lab/cs2/HayStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab2/lab/cs2/HayStack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab2/lab/cs2/OptionParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab2/lab/cs2/OptionParser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab2/lab/cs2/Position.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab2/lab/cs2/Position.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab2/lab/cs4/AbstractWorldMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab2/lab/cs4/AbstractWorldMap.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/lab2/lab/cs4/UnboundedMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab2/lab/cs4/UnboundedMap.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/test/lab2/lab/cs2/CarTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/lab2/lab/cs2/CarTest.class" afterDir="false" />
     </list>
@@ -51,55 +48,31 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="80" />
+          <entry key="java" value="95" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="80" />
+          <entry key="JAVA" value="95" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="4" />
-          <entry key="java" value="11267" />
-          <entry key="txt" value="24" />
+          <entry key="java" value="11407" />
+          <entry key="txt" value="52" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="11267" />
-          <entry key="PLAIN_TEXT" value="28" />
+          <entry key="JAVA" value="11407" />
+          <entry key="PLAIN_TEXT" value="56" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lab2/src/main/lab/cs2/CarSystem.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lab2/src/test/lab/cs2/CarTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lab2/src/main/lab/cs2/MapDirections.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -109,11 +82,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lab2/src/main/lab/cs2/AbstractMapElement.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lab2/src/main/lab/cs2/CarSystem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+            <state relative-caret-position="349">
+              <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lab2/src/main/lab/cs2/HayStack.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -121,7 +106,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lab2/src/main/lab/cs4/IWorldMap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
+            <state relative-caret-position="503">
               <caret line="40" column="46" selection-start-line="40" selection-start-column="46" selection-end-line="40" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -131,15 +116,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lab2/src/main/lab/cs4/AbstractWorldMap.java">
+        <entry file="file://$PROJECT_DIR$/lab2/src/main/lab/cs2/sthRandom.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="42" selection-start-line="42" selection-end-line="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1389#1390#0" expanded="true" />
-                <element signature="e#1436#1437#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="34">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -147,8 +127,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lab2/src/main/lab/cs4/RectangularMap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+            <state relative-caret-position="272">
+              <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lab2/src/main/lab/cs4/MapVisualizer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="712">
+              <caret line="54" column="34" selection-start-line="54" selection-start-column="34" selection-end-line="54" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -156,7 +145,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lab2/src/main/lab/cs2/Position.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
+            <state relative-caret-position="-39">
               <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
             </state>
           </provider>
@@ -171,11 +160,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lab2/src/main/lab/cs4/UnboundedMap.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lab2/src/main/lab/cs2/OptionParser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+            <state relative-caret-position="196">
+              <caret line="12" column="31" lean-forward="true" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -208,19 +197,19 @@
         <option value="$PROJECT_DIR$/lab2/src/main/lab/cs2/MoveDirections.java" />
         <option value="$PROJECT_DIR$/lab2/src/main/lab/cs2/MapDirections.java" />
         <option value="$PROJECT_DIR$/lab2/src/main/lab/cs4/Map.java" />
-        <option value="$PROJECT_DIR$/lab2/src/main/lab/cs4/MapVisualizer.java" />
         <option value="$PROJECT_DIR$/lab2/src/main/lab/cs4/IWorldMap.java" />
-        <option value="$PROJECT_DIR$/lab2/src/main/lab/cs4/RectangularMap.java" />
         <option value="$PROJECT_DIR$/lab2/src/main/lab/cs2/Abstract.java" />
-        <option value="$PROJECT_DIR$/lab2/src/main/lab/cs2/OptionParser.java" />
-        <option value="$PROJECT_DIR$/lab2/src/main/lab/cs2/Position.java" />
-        <option value="$PROJECT_DIR$/lab2/src/main/lab/cs2/HayStack.java" />
-        <option value="$PROJECT_DIR$/lab2/src/main/lab/cs2/Car.java" />
-        <option value="$PROJECT_DIR$/lab2/src/main/lab/cs2/CarSystem.java" />
         <option value="$PROJECT_DIR$/lab2/src/main/lab/cs2/AbstractMapElement.java" />
         <option value="$PROJECT_DIR$/lab2/src/test/lab/cs2/CarTest.java" />
+        <option value="$PROJECT_DIR$/lab2/src/main/lab/cs2/Car.java" />
         <option value="$PROJECT_DIR$/lab2/src/main/lab/cs4/AbstractWorldMap.java" />
         <option value="$PROJECT_DIR$/lab2/src/main/lab/cs4/UnboundedMap.java" />
+        <option value="$PROJECT_DIR$/lab2/src/main/lab/cs4/RectangularMap.java" />
+        <option value="$PROJECT_DIR$/lab2/src/main/lab/cs4/MapVisualizer.java" />
+        <option value="$PROJECT_DIR$/lab2/src/main/lab/cs2/Position.java" />
+        <option value="$PROJECT_DIR$/lab2/src/main/lab/cs2/OptionParser.java" />
+        <option value="$PROJECT_DIR$/lab2/src/main/lab/cs2/HayStack.java" />
+        <option value="$PROJECT_DIR$/lab2/src/main/lab/cs2/CarSystem.java" />
       </list>
     </option>
   </component>
@@ -330,7 +319,7 @@
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541412319434" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541419595594" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -354,13 +343,12 @@
     </option>
   </component>
   <component name="RunManager" selected="JUnit.CarTest">
-    <configuration name="CarSystem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="CarSystem (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lab.cs2.CarSystem" />
-      <module name="lab1" />
-      <option name="PROGRAM_PARAMETERS" value="f b r l f f r r f f f f f f f f" />
+      <module name="lab2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lab.cs1.*" />
+          <option name="PATTERN" value="lab.cs2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -466,6 +454,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CarTest.testCar" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lab2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lab.cs2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lab.cs2" />
+      <option name="MAIN_CLASS_NAME" value="lab.cs2.CarTest" />
+      <option name="METHOD_NAME" value="testCar" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CarTest.testException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lab2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lab.cs2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lab.cs2" />
+      <option name="MAIN_CLASS_NAME" value="lab.cs2.CarTest" />
+      <option name="METHOD_NAME" value="testException" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CarTest.testParser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lab2" />
       <extension name="coverage">
@@ -482,33 +502,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PositionTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="lab2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lab.cs2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="lab.cs2" />
-      <option name="MAIN_CLASS_NAME" value="lab.cs2.PositionTests" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.CarSystem" />
-      <item itemvalue="JUnit.PositionTests" />
       <item itemvalue="JUnit.CarTest.testParser" />
       <item itemvalue="JUnit.CarTest" />
+      <item itemvalue="Application.CarSystem (1)" />
+      <item itemvalue="JUnit.CarTest.testCar" />
+      <item itemvalue="JUnit.CarTest.testException" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.CarTest" />
-        <item itemvalue="Application.CarSystem" />
-        <item itemvalue="Application.CarSystem" />
-        <item itemvalue="Application.CarSystem" />
-        <item itemvalue="Application.CarSystem" />
+        <item itemvalue="JUnit.CarTest.testException" />
+        <item itemvalue="JUnit.CarTest.testCar" />
+        <item itemvalue="JUnit.CarTest.testParser" />
+        <item itemvalue="Application.CarSystem (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -537,28 +544,17 @@
       <option name="project" value="LOCAL" />
       <updated>1541410630404</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="unbounded draw bugfix">
+      <created>1541418505862</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1541418505862</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CarTest - 2018.10.22 at 11h 00m 17s.xml">
-      <configuration name="CarTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CarTest - 2018.10.29 at 08h 30m 36s.xml">
-      <configuration name="CarTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CarTest - 2018.10.29 at 09h 48m 00s.xml">
-      <configuration name="CarTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CarTest - 2018.10.29 at 10h 09m 56s.xml">
-      <configuration name="CarTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CarTest - 2018.10.29 at 10h 30m 31s.xml">
-      <configuration name="CarTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CarTest - 2018.10.29 at 10h 49m 52s.xml">
-      <configuration name="CarTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CarTest - 2018.10.30 at 11h 34m 39s.xml">
       <configuration name="CarTest" configurationId="JUnit" />
     </history-entry>
@@ -569,6 +565,24 @@
       <configuration name="CarTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="CarTest - 2018.11.05 at 10h 58m 40s.xml">
+      <configuration name="CarTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CarTest - 2018.11.05 at 12h 50m 23s.xml">
+      <configuration name="CarTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CarTest_testParser - 2018.11.05 at 12h 58m 26s.xml">
+      <configuration name="CarTest.testParser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CarTest_testCar - 2018.11.05 at 12h 58m 55s.xml">
+      <configuration name="CarTest.testCar" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CarTest_testCar - 2018.11.05 at 12h 59m 10s.xml">
+      <configuration name="CarTest.testCar" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CarTest_testException - 2018.11.05 at 12h 59m 59s.xml">
+      <configuration name="CarTest.testException" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CarTest - 2018.11.05 at 13h 01m 37s.xml">
       <configuration name="CarTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -649,7 +663,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test" />
     <MESSAGE value="Hash, exceptions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Hash, exceptions" />
+    <MESSAGE value="unbounded draw bugfix" />
+    <option name="LAST_COMMIT_MESSAGE" value="unbounded draw bugfix" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -694,10 +709,80 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lab2/src/main/lab/cs4/Map.java" />
     <entry file="file://$PROJECT_DIR$/lab2/src/main/lab/cs2/Abstract.java" />
+    <entry file="file://$PROJECT_DIR$/lab2/src/main/lab/cs2/AbstractMapElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab2/src/test/lab/cs2/CarTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="31" column="18" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1306#1307#0" expanded="true" />
+            <element signature="e#1337#1338#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab2/src/main/lab/cs2/Car.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="30" column="30" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#643#644#0" expanded="true" />
+            <element signature="e#681#682#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab2/src/main/lab/cs4/AbstractWorldMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="534">
+          <caret line="35" column="20" lean-forward="true" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1389#1390#0" expanded="true" />
+            <element signature="e#1436#1437#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab2/src/main/lab/cs4/UnboundedMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="42" lean-forward="true" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab2/src/main/lab/cs4/RectangularMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lab2/src/main/lab/cs4/MapVisualizer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
-          <caret line="53" column="34" selection-start-line="53" selection-start-column="34" selection-end-line="53" selection-end-column="34" />
+        <state relative-caret-position="712">
+          <caret line="54" column="34" selection-start-line="54" selection-start-column="34" selection-end-line="54" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab2/src/main/lab/cs4/IWorldMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="503">
+          <caret line="40" column="46" selection-start-line="40" selection-start-column="46" selection-end-line="40" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -708,78 +793,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lab2/src/main/lab/cs2/HayStack.java">
+    <entry file="file://$PROJECT_DIR$/lab2/src/main/lab/cs2/Position.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        <state relative-caret-position="-39">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lab2/src/main/lab/cs2/OptionParser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="196">
-          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab2/src/main/lab/cs2/Car.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
+          <caret line="12" column="31" lean-forward="true" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab2/src/main/lab/cs2/CarSystem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab2/src/test/lab/cs2/CarTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab2/src/main/lab/cs2/MapDirections.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab2/src/main/lab/cs2/AbstractMapElement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab2/src/main/lab/cs4/IWorldMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="40" column="46" selection-start-line="40" selection-start-column="46" selection-end-line="40" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab2/src/main/lab/cs2/Position.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -790,29 +817,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lab2/src/main/lab/cs4/AbstractWorldMap.java">
+    <entry file="file://$PROJECT_DIR$/lab2/src/main/lab/cs2/MapDirections.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1389#1390#0" expanded="true" />
-            <element signature="e#1436#1437#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="238">
+          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lab2/src/main/lab/cs4/RectangularMap.java">
+    <entry file="file://$PROJECT_DIR$/lab2/src/main/lab/cs2/HayStack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        <state relative-caret-position="119">
+          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lab2/src/main/lab/cs4/UnboundedMap.java">
+    <entry file="file://$PROJECT_DIR$/lab2/src/main/lab/cs2/CarSystem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+        <state relative-caret-position="349">
+          <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

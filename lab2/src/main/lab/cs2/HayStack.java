@@ -7,13 +7,11 @@ public class HayStack implements AbstractMapElement {
         return position;
     }
 
-    public HayStack (Position position)
-    {
-        this.position=position;
+    public HayStack(Position position) {
+        this.position = position;
     }
 
-    public String toString()
-    {
+    public String toString() {
         return "s";
     }
 }

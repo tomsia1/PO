@@ -28,7 +28,7 @@ public class CarSystem {
 
             System.out.println(map);
         } catch (IllegalArgumentException e) {
-            System.out.println( e.getMessage() );
+            System.out.println(e.getMessage());
         }
     }
 }

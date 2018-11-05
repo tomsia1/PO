@@ -2,17 +2,18 @@ package lab.cs2;
 
 import lab.cs4.AbstractWorldMap;
 import lab.cs4.RectangularMap;
-import org.junit.Assert;
-import org.junit.jupiter.api.Test;
 
-import static groovy.util.GroovyTestCase.assertEquals;
+import org.junit.Assert;
+import org.junit.Test;
+
+import static junit.framework.TestCase.assertEquals;
 
 public class CarTest {
 
     private AbstractWorldMap map=new RectangularMap(5,5);
 
     private Car c1 = new Car(map);
-    private Car c2 = new Car(map);
+    private Car c2 = new Car(map,new Position(2,3));
 
     private String[] tab1 = new String[]{"f", "haha", "l", "backward", "xd", "l", "forward"};
     private String[] tab2 = new String[]{"f", "f", "f", "f", "l", "l", "backward", "left"};
@@ -22,10 +23,16 @@ public class CarTest {
             MoveDirections.FORWARD, MoveDirections.FORWARD, MoveDirections.LEFT, MoveDirections.LEFT,
             MoveDirections.BACKWARD, MoveDirections.LEFT};
 
-    @Test
+    @Test (expected = IllegalArgumentException.class)
     public void testParser() {
         Assert.assertArrayEquals(m1, OptionParser.parse(tab1));
         Assert.assertArrayEquals(m2, OptionParser.parse(tab2));
+    }
+
+    @Test (expected = IllegalArgumentException.class)
+    public void testException()
+    {
+        Car c3=new Car(map);
     }
 
     @Test
@@ -36,7 +43,7 @@ public class CarTest {
         for (MoveDirections i : m1)
             c1.move(i);
 
-        assertEquals(new Position(3, 2), c1.getPosition());
+        assertEquals(new Position(3, 1), c1.getPosition());
         assertEquals(MapDirections.SOUTH, c1.showDirection());
 
         for (MoveDirections j : m2)

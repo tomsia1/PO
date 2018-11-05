@@ -7,8 +7,6 @@ import java.util.Set;
 public class OptionParser {
 
     static MoveDirections[] parse(String[] tab) throws IllegalArgumentException {
-
-        Set<String> Q= new HashSet<>(Arrays.asList("f","b","r","l","forward","backward","left","right"));
         return Arrays.stream(tab).map(s -> {
             switch (s) {
                 case "f":
@@ -24,7 +22,7 @@ public class OptionParser {
                 case "right":
                     return MoveDirections.RIGHT;
                 default:
-                    throw new IllegalArgumentException (s + " is not legal move specification");
+                    throw new IllegalArgumentException(s + " is not legal move specification");
             }
         }).toArray(MoveDirections[]::new);
     }

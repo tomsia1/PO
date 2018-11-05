@@ -39,12 +39,12 @@ public class Position {
     }
 
     public Position upperRight(Position obj) {
-        if (obj==null) return this;
+        if (obj == null) return this;
         return new Position(Math.max(this.x, obj.x), Math.max(this.y, obj.y));
     }
 
     public Position lowerLeft(Position obj) {
-        if (obj==null) return this;
+        if (obj == null) return this;
         return new Position(Math.min(this.x, obj.x), Math.min(this.y, obj.y));
     }
 

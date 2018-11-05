@@ -5,29 +5,36 @@ import lab.cs2.Car;
 import lab.cs2.MoveDirections;
 import lab.cs2.Position;
 
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
+import java.util.*;
 
 public abstract class AbstractWorldMap implements  IWorldMap{
 
     protected List<Car> cars=new ArrayList<>();
-    protected List<AbstractMapElement> elements=new LinkedList<>();
+    //protected List<AbstractMapElement> elements=new LinkedList<>();
     protected MapVisualizer vis;
     protected Position LL=null;
     protected Position UR=null;
+    protected Map<Position,AbstractMapElement> elements= new HashMap<>();
+
 
     protected AbstractWorldMap ()
     {
         vis=new MapVisualizer(this);
     }
 
+    public void replace (AbstractMapElement elem, Position oldPosition, Position newPosition)
+    {
+        elements.remove(oldPosition);
+        elements.put(newPosition,elem);
+    }
+
     @Override
-    public boolean place(Car car) {
+    public boolean place(Car car) throws IllegalArgumentException {
 
-        if (isOccupied(car.getPosition())) return false;
+        if (isOccupied(car.getPosition()))
+            throw new IllegalArgumentException ("position: " + car.getPosition().toString() +" is already occupied");
 
-        elements.add(car);
+        elements.put(car.getPosition(),car);
         cars.add(car);
         return true;
     }
@@ -52,14 +59,7 @@ public abstract class AbstractWorldMap implements  IWorldMap{
     }
 
     public Object objectAt(Position position) {
-
-        for (AbstractMapElement elem: elements)
-        {
-            if (elem.getPosition().equals(position))
-                return elem;
-        }
-
-        return null;
+        return elements.getOrDefault(position,null);
     }
 
     public boolean canMoveTo(Position position) {

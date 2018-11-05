@@ -1,5 +1,6 @@
 package lab.cs2;
 
+import lab.cs4.AbstractWorldMap;
 import lab.cs4.IWorldMap;
 import lab.cs4.RectangularMap;
 import org.junit.Assert;
@@ -9,7 +10,7 @@ import static junit.framework.TestCase.assertEquals;
 
 public class CarTest {
 
-    private IWorldMap map=new RectangularMap(5,5);
+    private AbstractWorldMap map=new RectangularMap(5,5);
 
     private Car c1 = new Car(map);
     private Car c2 = new Car(map);

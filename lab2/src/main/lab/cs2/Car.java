@@ -1,21 +1,27 @@
 package lab.cs2;
 
+import lab.cs4.AbstractWorldMap;
 import lab.cs4.IWorldMap;
 
-public class Car  extends AbstractMapElement{
+public class Car  implements AbstractMapElement{
 
+    private Position position;
     private MapDirections head = MapDirections.NORTH;
-    private IWorldMap map;
+    private AbstractWorldMap map;
 
-    public Car(IWorldMap map) {
-        super (new Position(2,2));
+    public Position getPosition() {
+        return position;
+    }
+
+    public Car(AbstractWorldMap map) {
+        this.position=new Position(2,2);
 
         this.map = map;
         map.place(this);
     }
 
-    public Car(IWorldMap map, Position initialPosition) {
-        super(initialPosition);
+    public Car(AbstractWorldMap map, Position initialPosition) {
+        this.position=initialPosition;
 
         this.map = map;
         map.place(this);
@@ -58,6 +64,7 @@ public class Car  extends AbstractMapElement{
             }
 
             if (map.canMoveTo(tmp)) {
+                map.replace(this,position,tmp);
                 position = tmp;
             }
         }

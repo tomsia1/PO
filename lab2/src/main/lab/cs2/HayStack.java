@@ -1,10 +1,15 @@
 package lab.cs2;
 
-public class HayStack extends AbstractMapElement {
+public class HayStack implements AbstractMapElement {
+    private Position position;
+
+    public Position getPosition() {
+        return position;
+    }
 
     public HayStack (Position position)
     {
-        super(position);
+        this.position=position;
     }
 
     public String toString()

@@ -6,14 +6,16 @@ import java.util.List;
 
 public class UnboundedMap extends AbstractWorldMap {
 
-    public UnboundedMap (List<HayStack> Stacks)
+    public UnboundedMap(List<HayStack> Stacks) throws IllegalArgumentException
     {
         super();
         for (HayStack s: Stacks)
         {
+            if (isOccupied(s.getPosition()))
+                throw new IllegalArgumentException("position: "+ s.getPosition() + " is already occupied");
             LL=s.getPosition().lowerLeft(LL);
             UR=s.getPosition().upperRight(UR);
-            elements.add(s);
+            elements.put(s.getPosition(),s);
         }
     }
 

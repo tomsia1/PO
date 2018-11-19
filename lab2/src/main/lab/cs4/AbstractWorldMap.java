@@ -7,7 +7,7 @@ import lab.cs2.Position;
 
 import java.util.*;
 
-public abstract class AbstractWorldMap implements IWorldMap {
+public abstract class AbstractWorldMap implements IWorldMap, PositionChangeObserver {
 
     protected List<Car> cars = new ArrayList<>();
     protected MapVisualizer vis;
@@ -20,7 +20,8 @@ public abstract class AbstractWorldMap implements IWorldMap {
         vis = new MapVisualizer(this);
     }
 
-    public void replace(AbstractMapElement elem, Position oldPosition, Position newPosition) {
+    public void update(Position oldPosition, Position newPosition) {
+        AbstractMapElement elem= objectAt(oldPosition);
         elements.remove(oldPosition);
         elements.put(newPosition, elem);
     }
@@ -53,7 +54,7 @@ public abstract class AbstractWorldMap implements IWorldMap {
         return objectAt(position) != null;
     }
 
-    public Object objectAt(Position position) {
+    public AbstractMapElement objectAt(Position position) {
         return elements.getOrDefault(position, null);
     }
 

@@ -1,13 +1,17 @@
 package lab.cs2;
 
 import lab.cs4.AbstractWorldMap;
-import lab.cs4.IWorldMap;
+import lab.cs4.PositionChangeObserver;
+
+import java.util.HashSet;
+import java.util.Set;
 
 public class Car  implements AbstractMapElement{
 
     private Position position;
     private MapDirections head = MapDirections.NORTH;
     private AbstractWorldMap map;
+    private Set<PositionChangeObserver> Observers=new HashSet<>();
 
     public Position getPosition() {
         return position;
@@ -33,6 +37,12 @@ public class Car  implements AbstractMapElement{
 
     public MapDirections showDirection() {
         return head;
+    }
+
+    private void notifyObservers(Position newPosition)
+    {
+        for (PositionChangeObserver observer: Observers)
+            observer.update(position,newPosition);
     }
 
     public void move(MoveDirections direction) {
@@ -64,7 +74,7 @@ public class Car  implements AbstractMapElement{
             }
 
             if (map.canMoveTo(tmp)) {
-                map.replace(this,position,tmp);
+                notifyObservers(tmp);
                 position = tmp;
             }
         }

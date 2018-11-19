@@ -1,7 +1,6 @@
 package lab.cs2;
 
 import lab.cs4.*;
-
 import java.util.LinkedList;
 import java.util.List;
 
@@ -30,5 +29,6 @@ public class CarSystem {
         } catch (IllegalArgumentException e) {
             System.out.println(e.getMessage());
         }
+
     }
 }
